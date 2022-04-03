@@ -15,6 +15,7 @@ You can watch it here @20:39 minutes https://www.youtube.com/watch?v=jFfo23yIWac
 ```bash
 git clone https://github.com/jcksnvllxr80/go-movies-crud.git
 go mod init
+go get "github.com/gorilla/mux"
 go build
 go run main.go
 ```
